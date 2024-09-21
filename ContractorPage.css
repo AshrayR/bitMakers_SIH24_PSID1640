@@ -1,0 +1,213 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#top{
+    display: flex;
+    height: 30px;
+    padding-left: 150px;
+}
+#gap{
+    width: 50%;
+}
+#loginbutton{
+    display: flex;
+    height: 25px;
+    width: 40px;
+    border: 2px solid black;
+    background-color: rgb(136, 199, 136);
+}
+#logointro{
+    display: flex;
+    margin-left: 125px;
+}
+#hindiheading{
+    color: #216853;
+    margin: 6px;
+    font-weight: 550;
+}
+#first{
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(136, 199, 136);
+    
+}
+#texthead {
+    margin-left: 10px;
+    margin-top: 7px;
+    padding: 10px;
+}
+#krishiheading{
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 4px;
+}
+#department_heading{
+    font-size: 15px;
+    font-weight: normal;
+    margin: 4px;
+}
+#ministry{
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 4px;
+}
+#img {
+    padding-left: 25px;
+}
+#image{
+    width: 50px;
+    margin-top: 7px;
+}
+#belowintro{
+    height: 40px;
+    background-color:rgb(212, 212, 212);
+}
+#homeicon{
+    margin-left: 150px;
+}
+.otherops{
+    display: flex;
+}
+.opther{
+    margin-left: 125px;
+    font-size: 20px;
+}
+.proprem{
+    text-decoration: none;
+    margin-top: 5px;
+    color: black;
+}
+#imgfarm{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://fasalmandi.com/images/image-1.jpg");
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+#imgin{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 60%;
+    width: 50%;
+    background-color: white;
+    border-radius: 5%;
+    opacity: 50%;
+    justify-content: center;
+    align-items: center;
+}
+#paratext{
+    font-size: 22px;
+}
+#loginbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    padding: 0px;
+}
+#loginp{
+    color: black;
+    font-weight: 700;
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 8px;
+}
+#farmers{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: url("istockphoto-1330214182-612x612.jpg");
+    background-size:cover;
+    opacity: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#farmercontent{
+    width:1000px;
+    height:500px;
+    background-color: white;
+    opacity: 60%;
+    border-radius: 50px;
+}
+#farmertext{
+    padding: 50px;
+    font-size: 30px;
+}
+#contractors{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: url("worker-with-tablet-hand-that-controls-quality-salad-greenhouse-background.jpg");
+    background-size: cover;
+    opacity: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#contractorscontent{
+    width: 1000px;
+    height: 500px;
+    background-color: black;
+    opacity: 60%;
+    border-radius: 50px;
+}
+#ctext{
+    padding: 50px;
+    font-size: 30px;
+}
+#explorer{
+    width: 100vw;
+    height: 200px;
+    background-color: #f9f7f3;
+    background-image:url("markus-spiske-3nX7pythQyM-unsplash.jpg") ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inexplorer{
+    width: 500px;
+    height: 85%;
+    background-color: white;
+    opacity: 70%;
+    border-radius: 10px;
+}
+#items{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#belowC{
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eff7f6;
+}
+#insideC{
+    width: 75%;
+    height: 40%;
+    border-radius: 15px;
+    background-color: #f6fff8;
+    opacity: 85%;
+    text-align: center;
+}
+#footer{
+    width: 100vw;
+    height: 35vh;
+    background-color: #1b263b;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+

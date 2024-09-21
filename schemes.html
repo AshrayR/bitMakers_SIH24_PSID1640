@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        #top{
+            display: flex;
+            height: 30px;
+            padding-left: 150px;
+        }
+        #gap{
+            width: 50%;
+        }
+        #logointro{
+            display: flex;
+            margin-left: 125px;
+        }
+        #hindiheading{
+            color: #216853;
+            margin: 6px;
+            font-weight: 550;
+        }
+        #first{
+            display: flex;
+            width: 100vw;
+            height: 100px;
+            background-color: rgb(136, 199, 136);
+            
+        }
+        #texthead {
+            margin-left: 10px;
+            margin-top: 7px;
+            padding: 10px;
+        }
+        #krishiheading{
+            font-size: 16px;
+            font-weight: bolder;
+            margin: 4px;
+        }
+        #department_heading{
+            font-size: 15px;
+            font-weight: normal;
+            margin: 4px;
+        }
+        #ministry{
+            font-size: 15px;
+            font-weight: bolder;
+            margin: 4px;
+        }
+        #img {
+            padding-left: 25px;
+        }
+        #image{
+            width: 50px;
+            margin-top: 7px;
+        }
+        #belowintro{
+            height: 40px;
+            background-color:rgb(212, 212, 212);
+        }
+        #homeicon{
+            margin-left: 150px;
+        }
+        .otherops{
+            display: flex;
+            justify-content: space-between;
+        }
+        .opther{
+            
+            font-size: 20px;
+        }
+        .proprem{
+            text-decoration: none;
+            margin-top: 5px;
+            color: black;
+        }
+
+
+        .mid{
+            background-color: #ddb74f;
+        }
+
+        #box {
+            max-width: 1100px;
+            margin-left: 200px;
+        }
+        .faqBox {
+            background: #c3ffd4f2;
+            border-radius: 10px;
+            margin: 20px;
+            padding: 20px;
+            transition: background 0.3s;
+            border: 1px solid #530000;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .faqBox .question {
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #000000;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .faqBox .answer {
+            font-size: 18px;
+            line-height: 1.5;
+            color: #000000;
+            display: none;
+            padding: 10px 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <div id="top">
+        <div id="hindiheading">भारत सरकार | कृषि एवं किसान कल्याण मंत्रालय</div>
+        <div id="gap"></div>
+    </div>
+    <hr>
+    <div id="first">
+        <div id="logointro">
+            <div id="img">
+                <img src="https://mkisan.gov.in/Content/assets/img/agriculture-logo-dark.png" id="image">
+            </div>
+            <div id="texthead">
+                <ul style="list-style-type: none;">
+                    <li id="krishiheading">कृषि एवं किसान कल्याण विभाग</li>
+                    <li id="department_heading">DEPARTMENT OF AGRICULTURE &amp; FARMERS WELFARE</li>
+                    <li id="ministry">MINISTRY OF AGRICULTURE &amp; FARMERS WELFARE</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="belowintro">
+        <div class="otherops">
+            <div id="homeicon">
+                <a href = "index.html"><i class="fa fa-home fa-2x" style="color: rgb(94, 92, 92);"></i></a>
+            </div>
+            <a href="farmerSellOptions.html" class="proprem"><div class="opther" id="sell">Sell</div></a>
+            <a href="schemes.html" class="proprem"><div class="opther" id="services">Schemes</div></a>
+            <a href="about.html" class="proprem"><div class="opther" id="about">About us</div></a>
+            <a href="tc.html" class="proprem"><div class="opther" id="tas">Terms &amp; Conditions</div></a>
+            <a href="#" class="proprem"><div class="opther" id="testimonial">Testimonials</div></a>
+            <a href="#" class="proprem"><div class="opther" id="contact">Contact Us</div></a>
+        </div>
+    </div>
+ 
+    <div class="box" id="box" aria-label="FAQ Section">
+
+        <h1 id="changingHeading"
+            style="font-family: Arial, sans-serif; font-size: 40px; color: #f09819; display: block; margin: 1rem auto;">
+            Schemes
+        </h1>
+        <div class="faqBox" aria-labelledby="faq1">
+            <div class="question" id="faq1" aria-expanded="false" aria-controls="faq1-answer">
+                The Pradhan Mantri Kisan Samman Nidhi (PM-KISAN):
+                <i class="fas fa-chevron-down arrow"></i>
+            </div>
+            <div class="answer" id="faq1-answer" hidden>
+                The PM-KISAN Scheme aims to provide income support to all landholding Farmers’ families across the country to enable them to take care of expenses related to agriculture and allied activities as well as domestic needs.
+The Scheme provides a payment of Rs.6000/- per year for the farmers’ families with cultivable land holding, subject to certain exclusions.
+
+            </div>
+        </div>
+
+        <div class="faqBox" aria-labelledby="faq2">
+            <div class="question" id="faq2" aria-expanded="false" aria-controls="faq2-answer">
+                The Kisan Credit Card (KCC) Scheme:
+                <i class="fas fa-chevron-down arrow"></i>
+            </div>
+            <div class="answer" id="faq2-answer" hidden>
+                The Kisan Credit Card (KCC) Scheme is an agricultural credit scheme introduced by the Government of India in 1998 to provide the suitable and real-time access to money for their farming requirements and other agricultural expenses.
+            </div>
+        </div>
+
+        <div class="faqBox" aria-labelledby="faq3">
+            <div class="question" id="faq3" aria-expanded="false" aria-controls="faq3-answer">
+                Pradhan Mantri Fasal Bima Yojana (PMFBY)
+            <i class="fas fa-chevron-down arrow"></i>
+            </div>
+            <div class="answer" id="faq3-answer" hidden>
+                The Pradhan Mantri Fasal Bima Yojana (PMFBY) – Government Schemes for farmers, is the flagship agricultural insurance scheme started by the Indian government to provide financial protection against crop yield losses caused by unforeseen events.
+
+            </div>
+        </div>
+
+        <div class="faqBox" aria-labelledby="faq4">
+            <div class="question" id="faq4" aria-expanded="false" aria-controls="faq4-answer">
+                Soil Health Card Scheme
+                <i class="fas fa-chevron-down arrow"></i>
+            </div>
+            <div class="answer" id="faq4-answer" hidden>
+                The Soil Health Card Scheme is the agricultural Government schemes for farmers in India which pay attention on estimating and improving the soil health of farmers’ fields, desiring to enhance crop productivity and sustainability.
+
+            </div>
+        </div> 
+    </div>
+ 
+
+    <script>
+        let questions = document.querySelectorAll(".question");
+        let answers = document.querySelectorAll(".answer");
+
+        questions.forEach((question, i) => {
+            question.addEventListener('click', function () {
+                const isActive = this.classList.contains('active');
+
+                // Reset all questions and answers
+                questions.forEach((s, j) => {
+                    s.classList.remove('active');
+                    answers[j].style.display = 'none';
+                    // Rotate the arrow back to its original position
+                    s.querySelector('.arrow').classList.remove('rotate');
+                });
+
+                // Toggle the clicked question and answer
+                if (!isActive) {
+                    this.classList.add('active');
+                    answers[i].style.display = 'block';
+                    // Rotate the arrow for the clicked question
+                    this.querySelector('.arrow').classList.add('rotate');
+                }
+            });
+        });
+
+    </script>
+</body>
+
+</html>

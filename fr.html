@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fr.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" >
+    <script src="frjs.js"></script>
+</head>
+<body>
+    <h2 class="a">Registration form</h2>
+    <form >
+        <div>
+            <label for="regtyp" class="b" >Registration type:</label>
+            <select name="regtyp" id="Registration type" class="d" required>
+                <option value="--select--">--select--</option>
+                <option value="Farmer">Farmer</option>
+                <option value="Contractor">Contractor</option>
+            </select>
+            
+        </div>
+        <div >
+            <label for="type" class="c" id="rl">Registration level:</label>
+            <label >State</label>
+            <input type="radio" name="ti">
+            <label >Mandi</label>
+            <input type="radio" name="ti">
+        </div>
+        <h3 class="e">Personal Details</h3>
+        <div class="m">
+            <label class="f">Title:</label>
+
+            <label > Mr.</label>
+            <input type="radio" name="te">
+            <label > Mrs.</label>
+            <input type="radio" name="te">
+            <label > Ms.</label>
+            <input type="radio" name="te">
+            <label for="fn" class="g">First Name:</label>
+            <input type="text" class="h">
+            <label for="mn" class="i">Middle Name:</label>
+            <input type="text" class="j">
+            <label for="ln" class="k">Last Name:</label>
+            <input type="text" class="l">
+        </div>
+        <div>
+            <label for="gender" class="o">Gender:</label>
+            <select name="gender" id="Gender" class="n" required>
+                <option value="--select--">--select--</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <label for="Date of birth" class="p">Date of birth </label>
+            <input type="datetime-local" max="01-09-2024T23:59" min="01-09-1924T00:00" class="q" required>
+            <label class="r" >Relation Type:</label>
+            <select name="rt" id="relt" class="s" required>
+                <option value="--select--">--select--</option>
+                <option value="Son of">Son of</option>
+                <option value="Daughter of">Daughter of</option>
+                <option value="Wife of">Wife of</option>
+                <option value="Father of">Father of</option>
+                <option value="Mother of">Mother of</option>
+            </select>
+            <label for="reln" class="t">Relation Name:</label>
+            <input type="text" placeholder="Relation name" class="u" required>
+        </div>
+        <div>
+            <label for="Address:" class="v">Address:</label>
+            <input type="text" class="w" required>
+
+        </div> 
+        <div class="y1">
+            <label for="pincode" class="x">Pincode:</label>
+            <input type="number" class="y" required>
+            <label for="state" class="z">State:</label>
+            <input type="text" class="z1" required>
+            <label for="District" class="z2">District:</label>
+            <input type="text" class="z3" required>
+            <label for="tehsil" class="z4">Tehsil or Sub-District:</label>
+            <input type="text" class="z5" required>
+
+
+
+        </div>
+        <div class="z6">
+            <label for="city/village" class="z7">City/Village:</label>
+            <input type="text" class="z8" required>
+            <label for="post" class="z9">Post:</label>
+            <input type="text" class="a1" required>
+            <label for="idtype" class="a2">Photo ID type:</label>
+            <select name="idtype" id="photoidtype" class="a3" required>
+                <option value="--select--">--select--</option>
+                <option value="AADHAR">AADHAR</option>
+                <option value="PAN CARD">PAN CARD</option>
+                <option value="Ration card">Ration card</option>
+                <option value="Voter id">Voter id</option>
+                <option value="Driving license">Driving license</option>
+                <option value="Passport">Passport</option>
+            </select>
+            <label for="idno." class="a4">Photo ID no.:</label>
+            <input type="number" class="a5" required>
+
+
+        </div>
+        <div class="a6">
+            <label for="Mobno." >Mobile no.:</label>
+            <input type="number" required>
+            <label for="emailid" class="a7">Email id:</label>
+            <input type="text" class="a8" required>
+            <label for="license no." class="a9">License no.:</label>
+            <input type="number" class="b1" required>
+
+        </div>
+        <h4 class="b3">Note:Please make sure correct mail ID is mentioned in " Email id " field as all future communications from KrishiBazaar will be sent on same Email ID.</h4>
+        <h3 class="b2">Bank Details</h3>
+        <div>
+            <label for="IFSC" >IFSC Code:</label>
+            <input type="number" class="b4" required>
+            <label for="Acc name" class="b5">Account holder name as per bank A/C:</label>
+            <input type="text" class="b6" required>
+        </div>
+        <div class="b7">
+            <label for="bank name">Bank Name:</label>
+            <input type="text" class="b8" required>
+            <label for="bank acc no." class="b9">Bank A/C no.:</label>
+           <!-- <span class="c6"><i class="fa-eye" onclick="myfun()"></i></span>-->
+            <input type="password" class="c1" required id="b">
+        </div>
+        <div class="b7"> 
+            <label for="Branch Name">Branch Name:</label>
+            <input type="text" class="c2" required>
+            
+            <label for="Confirm A/c no." class="b9">Confirm A/c no.:</label>
+            <input type="password" class="c3" required id="a" >
+            <!--<span><i class=" fa-solid fa-eye" onclick="myfunc()"></i></span> -->
+           
+          
+
+            
+        </div>
+        <div class="b7">
+            <label for="branch add">Branch Address:</label>
+            <input type="text" class="c4" required>
+        </div>
+        <div class="b7">
+            <label for="Upload Copy Of Passbook/Cancelled Check in Support :">Upload Copy Of Passbook/Cancelled Check in Support :</label>
+            
+                <input type="file" id="myFile" name="filename">
+                <input type="submit">
+           
+            
+
+        </div>
+        <div class="b7">
+        <label for="Upload One Scan Copy Of Id Proof :">Upload One Scan Copy Of Id Proof :</label>
+        <input type="file" id="myfile" name="filename1">
+        <input type="submit">
+        </div>
+        <div class="b7">
+            <label for="Registration Acknowledgement">Registration Acknowledgement:</label>
+            <label for="GET SMS" class="c7">Get SMS</label>
+            <input type="radio">
+            <label for="td">Get Email </label>
+            <input type="radio">
+            <label for="captcha" class="c9">Captcha letters are case sensitive* </label>
+            <input type="text" placeholder="Enter captcha" class="d1">
+            <i class="fas fa-sync" id="ab"></i>
+            
+                <img src="captcha image.png" alt="captcha" class="c8">
+            
+
+        </div>
+    </form>
+    <div class="d4">
+    <button class="d2" onclick="my()">Submit</button>
+    <button class="d3">Cancel</button>
+</div>
+<footer class="c10">
+<div class="c11">
+   <img src="bharat sarkar logo.png" alt="" id="img1">
+    <img src="ministry of agriculture logo.jpeg" alt="" id="img2">
+    <img src="india gov logo.png" alt="" id="img3">
+    <img src="digital india logo.png" alt="" id="img4">
+</div>
+<div class="C13">
+    <p>
+    <h2 class="c14">Ministry of Agriculture and Farmers Welfare</h1>
+    
+<h1 class="c14"><img src="https://mkisan.gov.in/Content/assets/img/agriculture-logo-dark.png" alt="" class="c15">GOVERNMENT OF INDIA</h1>
+</p>
+</div>
+</footer>
+</body>
+</html>
